@@ -1,0 +1,10 @@
+{
+  "name": "ensemble",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Equipa de agentes para Claude Code: método (OpenSpec + papéis + gate + revisão), instalador e painel ao vivo.",
+  "type": "module",
+  "bin": { "ensemble": "bin/ensemble.mjs" },
+  "engines": { "node": ">=22" },
+  "scripts": { "painel": "node bin/ensemble.mjs painel" }
+}
